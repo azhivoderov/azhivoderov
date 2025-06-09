@@ -33,10 +33,7 @@ public class Task1 {
 
         // 6
         int b = scanner.nextInt();
-        // вариант 1
-        System.out.println(b % 2 != 0 ? "Нечетное" : b > 100 ? "Выход за пределы диапазона" :"Четное");
 
-        // вариант 2
         if (b % 2 != 0) {
             System.out.println("Нечетное");
         } else if (b > 100){
